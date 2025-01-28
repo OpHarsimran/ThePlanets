@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Vite App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Belleza&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="w-full h-screen overflow-hidden">
+      <div class="w-full h-screen absolute top-0 left-0 z-[2]">
+        <nav class=" w-full flex justify-between text-white p-4 text-xl">
+          <h3>Planets</h3>
+          <div class="flex gap-4">
+            <a href="">Home</a><a href="">About</a><a href="">Contact</a>
+          </div>
+        </nav>
+        <div class="text-white absolute top-[15%] left-1/2 -translate-x-1/2 text-center font-['Belleza']">
+          <div class="w-full h-[6em] overflow-hidden">
+
+            <h1 class="text-8xl h-full  heading tracking-tighter">Earth</h1>
+            <h1 class="text-8xl h-full  heading tracking-tighter">Csilla</h1>
+            <h1 class="text-8xl h-full  heading tracking-tighter">Venus</h1>
+            <h1 class="text-8xl h-full  heading tracking-tighter">Volcanic</h1>
+          </div>
+          <p class="text-sm">Lorem ipsum dolor sit amet Lorem ipsum dolor sit.</p>
+          <div class="w-96 h-px bg-gradient-to-r from-transparent via-white to-tansparent mt-4 i"></div>
+        </div>
+      </div>
+      <canvas id="canvas"></canvas>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
