@@ -166,7 +166,7 @@ function animate() {
   requestAnimationFrame(animate) 
   for(let i=0;i<4;i++){
     let sphere = speresMesh[i];
-    sphere.rotation.y += clock.getElapsedTime() * 0.00002;
+    sphere.rotation.y += clock.getElapsedTime() * 0.00001;
   }
  
   
